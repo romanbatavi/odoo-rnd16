@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <record id="master_kota_view_form" model="ir.ui.view">
+            <field name="name">master.kota.view.form</field>
+            <field name="model">master.kota</field>
+            <field name="arch" type="xml">
+                <form string="Master Kota">
+                    <sheet>
+                        <group>
+                            <field name="kode_kota" />
+                            <field name="nama_kota" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_rm_pendataan_warga_rm_pendataan_warga,rm_pendataan_warga.rm_pendataan_warga,model_rm_pendataan_warga_rm_pendataan_warga,base.group_user,1,1,1,1
+access_master_kota_user,rm_pendataan_warga.master.kota,model_master_kota,base.group_user,1,1,1,1
+access_master_kecamatan_user,rm_pendataan_warga.master.kecamatan,model_master_kecamatan,base.group_user,1,1,1,1

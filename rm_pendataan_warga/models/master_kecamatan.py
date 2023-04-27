@@ -2,11 +2,11 @@
 
 from odoo import models, fields, api
 
-class MasterKota(models.Model):
-    _name = 'master.kota'
-    _description = 'Master Kota'
+class MasterKecamatan(models.Model):
+    _name = 'master.kecamatan'
+    _description = 'Master Kecamatan'
 
-    kode_kota = fields.Char('Kode Kota')
+    nama_kecamatan = fields.Char('Kode kecamatan')
     nama_kota = fields.Selection([
         ('jakarta_timur', 'Jakarta Timur'),
         ('jakarta_barat', 'Jakarta Barat'),

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="master_kecamatan_view_form" model="ir.ui.view">
+            <field name="name">master.kecamatan.view.form</field>
+            <field name="model">master.kecamatan</field>
+            <field name="arch" type="xml">
+                <form string="Master Kecamatan">
+                    <sheet>
+                        <group>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
