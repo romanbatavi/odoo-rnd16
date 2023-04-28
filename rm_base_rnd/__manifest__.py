@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "rm_base_rnd",
+    'name': "ROMAN BASE RND",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
-    'description': """
-        Long description of module's purpose
+        MODUL RND PUNYA ROMAN, DIANCURIN GAPAPA, KARNA RND ADALAH 'RESEARCH N DESTROY'
     """,
 
-    'author': "My Company",
+    'description': """
+        MODUL RND PUNYA ROMAN, DIANCURIN GAPAPA, KARNA RND ADALAH 'RESEARCH N DESTROY'
+    """,
+
+    'author': "ROMAN BATAVI",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -21,6 +21,12 @@
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
+
+    'assets': {
+        'web.assets_backend': [
+            'rm_base_rnd/static/scss/style.scss',
+        ],
+    },
 
     # always loaded
     'data': [
