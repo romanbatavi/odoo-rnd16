@@ -6,8 +6,8 @@ class MasterKecamatan(models.Model):
     _name = 'master.kecamatan'
     _description = 'Master Kecamatan'
 
-    nama_kecamatan = fields.Char('Kode kecamatan')
-    nama_kota = fields.Selection([
+    nama_kecamatan = fields.Char('Nama kecamatan')
+    selection = fields.Selection([
         ('jakarta_timur', 'Jakarta Timur'),
         ('jakarta_barat', 'Jakarta Barat'),
         ('jakarta_selatan', 'Jakarta Selatan'),
