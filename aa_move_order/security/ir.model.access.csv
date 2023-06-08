@@ -1,5 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_move_order,move.order,model_move_order,group_move_order_user,1,1,1,1
-access_move_order_line,move.order.line,model_move_order_line,group_move_order_user,1,1,1,1
-access_move_type,move.type,model_move_type,group_move_order_user,1,1,1,1
-
