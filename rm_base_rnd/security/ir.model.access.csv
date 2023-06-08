@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_rm_base_rnd_rm_base_rnd,rm_base_rnd.rm_base_rnd,model_rm_base_rnd_rm_base_rnd,base.group_user,1,1,1,1
+access_warung_sembako_user,rm_base_rnd.warung.sembako,model_warung_sembako,base.group_user,1,1,1,1
+access_barang_sembako_user,rm_base_rnd.barang.sembako,model_barang_sembako,base.group_user,1,1,1,1

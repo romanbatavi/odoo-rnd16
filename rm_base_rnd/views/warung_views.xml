@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="warung_sembako_view_tree" model="ir.ui.view">
+            <field name="name">warung.sembako.view.tree</field>
+            <field name="model">warung.sembako</field>
+            <field name="arch" type="xml">
+                <tree string="Warung Sembako">
+                    <field name="partner_id" />
+                    <field name="date" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="warung_sembako_view_form" model="ir.ui.view">
+            <field name="name">warung.sembako.view.form</field>
+            <field name="model">warung.sembako</field>
+            <field name="arch" type="xml">
+                <form string="Warung Sembako">
+                    <sheet>
+                        <group>
+                            <field name="partner_id" />
+                            <field name="date" />
+                        </group>
+                        <separator>
+                        </separator>
+                        <notebook>
+                            <page string="Components Lines">
+                                <field name="sembako_line" nolabel="1" widget="one2many_list">
+                                    <tree editable="bottom">
+                                        <field name="product_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="warung_sembako_action" model="ir.actions.act_window">
+            <field name="name">Warung Sembako</field>
+            <field name="res_model">warung.sembako</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <menuitem id="warung_sembako_root_menu" name="Dashboard"/>
+        <menuitem id="warung_sembako_sub_menu" name="Warung Sembako" action="warung_sembako_action" parent="warung_sembako_root_menu"/>
+    </data>
+</odoo>
