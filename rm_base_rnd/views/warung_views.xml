@@ -33,7 +33,7 @@
                                         <field name="standard_price"/>
                                         <field name="qty"/>
                                         <field name="total" readonly="1"/>
-                                        <field name="tipe_sembako_rel"/>
+                                        <field name="tipe_sembako_rel" invisible="1"/>
                                     </tree>
                                 </field>
                             </page>
